@@ -9,7 +9,7 @@ import java.util.function.DoubleBinaryOperator;
 
 public class LogDAOImpl implements LogDAO {
 
-    private static final String insertLogString = "insert into log (logUserId, logInfo) VALUES (?, ?)";
+    private static final String insertLogString = "insert into logger (logUserId, logInfo) VALUES (?, ?)";
 
     @Override
     public void insertLog(String username, String logInfo) {
